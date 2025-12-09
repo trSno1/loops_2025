@@ -16,6 +16,19 @@ for x in range(1,21):
     if x == 13:
         continue
 else:
-    print(x)
-
+    print(x) 
     
+    
+    
+subjects = ["Math", "Science", "History", "Art"]
+for subject in subjects:
+        if subject == "History":
+            break
+        print(subject)
+
+
+
+
+for index in range*(len(subjects)):
+    print("Subject " + str(index) + ":" + subject[index])
+
