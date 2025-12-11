@@ -14,27 +14,35 @@
 #     print(i)
 # # ### **Problem 2: Sum of Numbers
 
-# Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
-n = int(input("Enter a number: "))
-total = 0
-for i in range (1,n+1):
-    total += i
+# # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
+# n = int(input("Enter a number: "))
+# total = 0
+# for i in range (1,n+1):
+#     total += i
 
-print("The sum of numbers from 1 to ", n, "is:", total)
+# print("The sum of numbers from 1 to ", n, "is:", total)
 
 
 # ### **Problem 3: Factorial Calculator
 
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
-# *(Example: factorial of 5 is 120)
+# # *(Example: factorial of 5 is 120)
 
-def factorial(n):
-    factorial = 1
-    for i in range(n):
-        factorial*=i+1
-    return factorial
-print(factorial(5))
+# def factorial(n):
+#     factorial = 1
+#     for i in range(n):
+#         factorial*=i+1
+#     return factorial
+# print(factorial(20))
+
+n = int(input("Enter a number: "))
+list2 = list(range(1, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
 
 
 
