@@ -4,15 +4,15 @@
 # **Directions:** Solve each problem by writing your own Python code. Show outputs where required.
 
 
-# ### **Problem 1: Print Numbers 1 to 10
+# # ### **Problem 1: Print Numbers 1 to 10
 
-# Write a program that prints the numbers from **1 to 10**, each on a new line.
-list1 = list(range(1,11))
-print(list1)
+# # Write a program that prints the numbers from **1 to 10**, each on a new line.
+# list1 = list(range(1,11))
+# print(list1)
 
-for i in list1:
-    print(i)
-# ### **Problem 2: Sum of Numbers
+# for i in list1:
+#     print(i)
+# # ### **Problem 2: Sum of Numbers
 
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
 n = int(input("Enter a number: "))
@@ -28,6 +28,14 @@ print("The sum of numbers from 1 to ", n, "is:", total)
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
+
+def factorial(n):
+    factorial = 1
+    for i in range(n):
+        factorial*=i+1
+    return factorial
+print(factorial(5))
+
 
 
 # ### **Problem 4: Count Vowels**
