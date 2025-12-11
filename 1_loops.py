@@ -49,12 +49,12 @@ for number in new_numbers:
 
 
 
-list = (list(range): 5,25)
-total = 0
-for num in list:
-     total += num + 0
+# list =list(range): 5,25
+# total = 0
+# for num in list:
+#      total += num + 0
 
 
 
 
-print(sum)
+# print(sum)
